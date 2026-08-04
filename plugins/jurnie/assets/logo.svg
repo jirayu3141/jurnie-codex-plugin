@@ -1,0 +1,13 @@
+<svg width="800" height="800" viewBox="0 0 800 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <clipPath id="jurnieCircle">
+      <circle cx="400" cy="400" r="382"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#jurnieCircle)">
+    <rect width="800" height="800" fill="#F7E85B"/>
+    <path d="M-20 336C106 272 215 388 360 353C505 318 621 378 820 301V820H-20V336Z" fill="#66A8F3"/>
+    <path d="M-20 548C116 461 244 603 402 540C556 479 654 548 820 486V820H-20V548Z" fill="#51D0A6"/>
+  </g>
+  <circle cx="400" cy="400" r="382" stroke="#17324D" stroke-width="20"/>
+</svg>
