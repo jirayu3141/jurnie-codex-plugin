@@ -8,7 +8,7 @@ Add this repository as a Codex marketplace, then install Jurnie:
 
 ```bash
 codex plugin marketplace add jirayu3141/jurnie-codex-plugin
-codex plugin add jurnie@jurnie
+codex plugin add jurnie@jurnie-plugins
 ```
 
 Start a new Codex task, invoke `$jurnie`, and complete the Jurnie OAuth consent flow when prompted.
