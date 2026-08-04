@@ -1,6 +1,6 @@
 ---
 name: jurnie
-description: Connect Codex to a user's Jurnie account to review and manage Journeys, projects, tasks, habits, daily intentions, calendar events, consistency, and scheduled actions. Use when the user mentions Jurnie, asks to plan or review their day from Jurnie data, wants to turn a conversation into tracked actions, or wants Codex to read or update their personal goals and plans through Jurnie's MCP tools.
+description: Connect Codex to a user's Jurnie account to review and manage personal or shared Journeys, projects, assigned tasks, habits, daily intentions, calendar events, consistency, and scheduled actions. Use when the user mentions Jurnie, asks to plan or review their day from Jurnie data, wants to turn a conversation into tracked actions, assign work to a Journey member, or wants Codex to read or update their goals and plans through Jurnie's MCP tools.
 ---
 
 # Jurnie
@@ -21,6 +21,7 @@ Use Jurnie's MCP tools to turn goals into clear next actions while preserving th
 - Review goals or projects: inspect Journeys, then fetch tasks only for the relevant Journey.
 - Plan today: combine current tasks, overdue tasks, calendar events, and the daily intention; propose a short ordered plan.
 - Capture follow-through: create or update the smallest useful task, preserving the user's wording where practical.
+- Assign work: first list the accepted members of the relevant shared Journey. Match the requested person to exactly one returned member, then pass that member's `userId` as `assigneeId` when creating or updating the task. Ask when names are ambiguous. Use `assigneeId: null` to unassign. Pending invitees are not assignable until they accept.
 - Track routines: inspect habits before logging completion; do not infer completion from discussion alone.
 - Set an intention: keep it concise and aligned with the user's stated priority.
 - Schedule follow-up: distinguish a Jurnie scheduled action from a calendar event and use the one the user requested.

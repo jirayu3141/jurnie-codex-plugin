@@ -1,6 +1,6 @@
 # Jurnie for Codex
 
-Connect Codex to your [Jurnie](https://www.jurnie.co/) account. The plugin combines a Jurnie workflow skill with Jurnie's OAuth-protected remote MCP server so Codex can help review Journeys, plan your day, manage tasks, track habits, set intentions, work with calendar events, and schedule follow-through.
+Connect Codex to your [Jurnie](https://www.jurnie.co/) account. The plugin combines a Jurnie workflow skill with Jurnie's OAuth-protected remote MCP server so Codex can help review personal and shared Journeys, plan your day, manage and assign tasks, track habits, set intentions, work with calendar events, and schedule follow-through.
 
 ## Install
 
@@ -18,6 +18,7 @@ Start a new Codex task, invoke `$jurnie`, and complete the Jurnie OAuth consent 
 - `Use $jurnie to review my priorities and plan today.`
 - `Use $jurnie to show overdue tasks and suggest my next three actions.`
 - `Use $jurnie to create a task from this conversation.`
+- `Use $jurnie to assign the launch task to Gitar.`
 
 ## Access and safety
 
