@@ -1,0 +1,4 @@
+interface:
+  display_name: "Jurnie"
+  short_description: "Plan goals and take action with Jurnie"
+  default_prompt: "Use $jurnie to review my priorities and plan my next actions."

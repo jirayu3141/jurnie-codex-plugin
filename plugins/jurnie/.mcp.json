@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "jurnie": {
+      "type": "http",
+      "url": "https://www.jurnie.co/api/mcp"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "jurnie",
+  "interface": {
+    "displayName": "Jurnie"
+  },
+  "plugins": [
+    {
+      "name": "jurnie",
+      "source": {
+        "source": "local",
+        "path": "./plugins/jurnie"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
