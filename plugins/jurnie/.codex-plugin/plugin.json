@@ -24,7 +24,7 @@
   "mcpServers": "./.mcp.json",
   "interface": {
     "displayName": "Jurnie",
-    "shortDescription": "Turn your goals into clear next actions",
+    "shortDescription": "Turn goals into next actions",
     "longDescription": "Connect Codex to Jurnie to review personal and shared Journeys, plan the day, manage and assign tasks, track habits, set intentions, work with calendar events, and schedule follow-through.",
     "developerName": "Jurnie",
     "category": "Productivity",

@@ -6,7 +6,7 @@ Use this worksheet when creating the **With MCP** draft in the [OpenAI plugin su
 
 - **Name:** Jurnie
 - **Category:** Productivity
-- **Short description:** Turn your goals into clear next actions
+- **Short description:** Turn goals into next actions
 - **Long description:** Connect ChatGPT and Codex to Jurnie to review personal and shared Journeys, plan the day, manage and assign tasks, track habits, set intentions, work with calendar events, and schedule follow-through.
 - **Website:** https://www.jurnie.co/
 - **Support:** https://www.jurnie.co/help
