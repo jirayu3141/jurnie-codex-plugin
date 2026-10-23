@@ -1,8 +1,40 @@
-# Jurnie for Codex
+# Jurnie plugins
 
 Connect Codex to your [Jurnie](https://www.jurnie.co/) account. The plugin combines a Jurnie workflow skill with Jurnie's OAuth-protected remote MCP server so Codex can help review personal and shared Journeys, plan your day, manage and assign tasks, track habits, set intentions, work with calendar events, and schedule follow-through.
 
-## Install
+The same Jurnie skill and MCP service also power the Claude and Cursor packages. Marketplace review is separate for each platform; a package in this repository does not mean its directory listing is approved.
+
+## One source, three clients
+
+```text
+plugin-source/  (one skill, logo, metadata, and release version)
+  -> npm run build
+     -> plugins/jurnie         Codex and portable ChatGPT package
+     -> plugins/jurnie-claude  Claude package
+     -> plugins/jurnie-cursor  Cursor package
+
+All clients -> https://www.jurnie.co/api/mcp (one hosted implementation)
+```
+
+Edit `plugin-source/`, then run `npm run build` and `npm run check` with Node.js 20 or newer. Commit the generated packages alongside their source so marketplaces can read them directly. Do not edit the generated package files. `npm run check` fails if their content drifts from the shared source. Change the release version once in `plugin-source/metadata.json`.
+
+Platform differences stay in the small packaging script: Claude and Codex use native remote HTTP; Cursor uses a pinned `mcp-remote` bridge for OAuth callback compatibility. No credentials or account tokens are packaged. Marketplace approvals can land at different times even though all packages share the same source version.
+
+## Claude and Cursor
+
+- [Claude public setup](https://www.jurnie.co/help/mcp#claude)
+- [Cursor public setup](https://www.jurnie.co/help/mcp#cursor)
+
+For Claude Code, this repository also provides a marketplace manifest:
+
+```text
+/plugin marketplace add jirayu3141/jurnie-codex-plugin
+/plugin install jurnie@jurnie-plugins
+```
+
+These direct setup routes work independently of directory review.
+
+## Install in Codex
 
 Add this repository as a Codex marketplace, then install Jurnie:
 

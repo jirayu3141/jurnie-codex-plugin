@@ -1,0 +1,18 @@
+{
+  "name": "jurnie-plugins",
+  "owner": {
+    "name": "Jurnie, Inc.",
+    "email": "support@jurnie.co"
+  },
+  "metadata": {
+    "description": "Jurnie planning and follow-through",
+    "version": "1.0.3"
+  },
+  "plugins": [
+    {
+      "name": "jurnie",
+      "source": "./plugins/jurnie-claude",
+      "description": "Connect your Jurnie account to review goals and manage tasks, habits, and daily follow-through."
+    }
+  ]
+}

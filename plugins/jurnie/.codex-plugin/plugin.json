@@ -1,9 +1,9 @@
 {
   "name": "jurnie",
-  "version": "0.1.2",
-  "description": "Connect Codex to your Jurnie goals, shared Journeys, tasks, habits, calendar, and scheduled actions.",
+  "version": "1.0.3",
+  "description": "Connect your Jurnie account to review goals and manage tasks, habits, and daily follow-through.",
   "author": {
-    "name": "Jirayu Sirivorawong",
+    "name": "Jurnie, Inc.",
     "email": "support@jurnie.co",
     "url": "https://www.jurnie.co/"
   },
@@ -13,10 +13,9 @@
   "keywords": [
     "jurnie",
     "goals",
-    "planning",
     "tasks",
     "habits",
-    "calendar",
+    "planning",
     "productivity",
     "mcp"
   ],
@@ -25,14 +24,15 @@
   "interface": {
     "displayName": "Jurnie",
     "shortDescription": "Turn goals into next actions",
-    "longDescription": "Connect Codex to Jurnie to review personal and shared Journeys, plan the day, manage and assign tasks, track habits, set intentions, work with calendar events, and schedule follow-through.",
-    "developerName": "Jurnie",
+    "longDescription": "Connect your Jurnie account to review personal and shared Journeys, plan the day, manage and assign tasks, track habits, set intentions, work with calendar events, and schedule follow-through. Access follows the permissions you choose during Jurnie sign-in.",
+    "developerName": "Jurnie, Inc.",
     "category": "Productivity",
     "capabilities": [
       "Interactive",
       "Write"
     ],
     "websiteURL": "https://www.jurnie.co/",
+    "supportURL": "https://www.jurnie.co/help",
     "privacyPolicyURL": "https://www.jurnie.co/privacy",
     "termsOfServiceURL": "https://www.jurnie.co/terms",
     "defaultPrompt": [

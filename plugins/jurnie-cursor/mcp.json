@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "jurnie": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-remote@0.15.2",
+        "https://www.jurnie.co/api/mcp"
+      ]
+    }
+  }
+}
