@@ -1,0 +1,51 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "jurnie",
+  "version": "1.0.3",
+  "description": "Connect your Jurnie account to review goals and manage tasks, habits, and daily follow-through.",
+  "author": {
+    "name": "Jurnie, Inc.",
+    "email": "support@jurnie.co",
+    "url": "https://www.jurnie.co/"
+  },
+  "homepage": "https://www.jurnie.co/help/mcp",
+  "repository": "https://github.com/jirayu3141/jurnie-codex-plugin",
+  "license": "MIT",
+  "keywords": [
+    "jurnie",
+    "goals",
+    "tasks",
+    "habits",
+    "planning",
+    "productivity",
+    "mcp"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Jurnie",
+        "shortDescription": "Turn goals into next actions",
+        "longDescription": "Connect your Jurnie account to review personal and shared Journeys, plan the day, manage and assign tasks, track habits, set intentions, work with calendar events, and schedule follow-through. Access follows the permissions you choose during Jurnie sign-in.",
+        "developerName": "Jurnie, Inc.",
+        "category": "Productivity",
+        "capabilities": [
+          "Interactive",
+          "Write"
+        ],
+        "websiteURL": "https://www.jurnie.co/",
+        "supportURL": "https://www.jurnie.co/help",
+        "privacyPolicyURL": "https://www.jurnie.co/privacy",
+        "termsOfServiceURL": "https://www.jurnie.co/terms",
+        "defaultPrompt": [
+          "Review my Jurnie priorities and plan today.",
+          "Show my overdue tasks and suggest the next three actions.",
+          "Assign a Journey task to the right team member."
+        ],
+        "brandColor": "#030213",
+        "composerIcon": "./assets/logo.png",
+        "logo": "./assets/logo.png",
+        "screenshots": []
+      }
+    }
+  }
+}

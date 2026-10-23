@@ -2,6 +2,8 @@
 
 Use this worksheet when creating the **With MCP** draft in the [OpenAI plugin submission portal](https://platform.openai.com/plugins).
 
+Claude and Cursor packages are generated from the same `plugin-source/` and version. Submit `plugins/jurnie-claude` to Claude's GitHub source form; Cursor discovers `plugins/jurnie-cursor` through `.cursor-plugin/marketplace.json`. Their review statuses are independent. Never include reviewer credentials in this repository or its packages.
+
 ## Listing
 
 - **Name:** Jurnie
@@ -27,8 +29,7 @@ Use this worksheet when creating the **With MCP** draft in the [OpenAI plugin su
 ## Tool annotation rationale
 
 - Read tools use `readOnlyHint: true` because they only retrieve private Jurnie account data.
-- Create and update tools use `readOnlyHint: false`, `destructiveHint: false`, and `openWorldHint: false` because they change private Jurnie state and remain reversible.
-- Deletion tools use `readOnlyHint: false`, `destructiveHint: true`, and `openWorldHint: false` because they delete private Jurnie state.
+- Every mutation uses `readOnlyHint: false`, `destructiveHint: true`, and `openWorldHint: false`. This conservative permission hint covers creation and completion as well as updates and deletion, as required by Claude's directory checklist. It does not change the operation's OAuth scope or imply that every write is irreversible.
 - All tools use `openWorldHint: false`; none publish content or message third parties.
 
 ## Positive test cases

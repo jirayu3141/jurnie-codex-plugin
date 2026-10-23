@@ -1,0 +1,24 @@
+{
+  "name": "jurnie",
+  "version": "1.0.3",
+  "description": "Connect your Jurnie account to review goals and manage tasks, habits, and daily follow-through.",
+  "author": {
+    "name": "Jurnie, Inc.",
+    "email": "support@jurnie.co",
+    "url": "https://www.jurnie.co/"
+  },
+  "homepage": "https://www.jurnie.co/help/mcp",
+  "repository": "https://github.com/jirayu3141/jurnie-codex-plugin",
+  "license": "MIT",
+  "keywords": [
+    "jurnie",
+    "goals",
+    "tasks",
+    "habits",
+    "planning",
+    "productivity",
+    "mcp"
+  ],
+  "displayName": "Jurnie",
+  "logo": "assets/logo.png"
+}

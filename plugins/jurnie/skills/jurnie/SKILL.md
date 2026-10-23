@@ -1,6 +1,6 @@
 ---
 name: jurnie
-description: Connect Codex to a user's Jurnie account to review and manage personal or shared Journeys, projects, assigned tasks, habits, daily intentions, calendar events, consistency, and scheduled actions. Use when the user mentions Jurnie, asks to plan or review their day from Jurnie data, wants to turn a conversation into tracked actions, assign work to a Journey member, or wants Codex to read or update their goals and plans through Jurnie's MCP tools.
+description: Connect the assistant to a user's Jurnie account to review and manage personal or shared Journeys, projects, assigned tasks, habits, daily intentions, calendar events, consistency, and scheduled actions. Use when the user mentions Jurnie, asks to plan or review their day from Jurnie data, wants to turn a conversation into tracked actions, assign work to a Journey member, or wants the assistant to read or update their goals and plans through Jurnie's MCP tools.
 ---
 
 # Jurnie
@@ -26,6 +26,16 @@ Use Jurnie's MCP tools to turn goals into clear next actions while preserving th
 - Set an intention: keep it concise and aligned with the user's stated priority.
 - Schedule follow-up: distinguish a Jurnie scheduled action from a calendar event and use the one the user requested.
 - Delete: explain the exact target and obtain confirmation immediately before using a destructive tool.
+
+## Respect capability boundaries
+
+Jurnie has no tools for sending email, buying subscriptions or charging cards, or reading Google Drive files.
+
+- For an email request, explain that Jurnie cannot send it and offer to draft the message. Do not send it or create a substitute scheduled action.
+- For a subscription upgrade or payment request, direct the user to the Jurnie app's billing settings. Do not collect card details or claim that a charge or plan change happened.
+- For Google Drive requests, explain that those files are not available through the Jurnie connection. Do not claim to have listed or read them.
+
+Do not silently substitute another service when the user explicitly asks Jurnie to perform an unsupported action.
 
 ## Handle connection and scope limits
 

@@ -1,0 +1,10 @@
+{
+  "name": "jurnie-plugin-packaging",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build-plugins.mjs",
+    "check": "node scripts/build-plugins.mjs --check"
+  },
+  "engines": { "node": ">=20" }
+}
