@@ -6,11 +6,11 @@
   },
   "metadata": {
     "description": "Jurnie planning and follow-through",
-    "version": "1.0.3"
+    "version": "1.0.4"
   },
   "plugins": [
     {
-      "name": "jurnie",
+      "name": "jurnie-goals",
       "source": "./plugins/jurnie-claude",
       "description": "Connect your Jurnie account to review goals and manage tasks, habits, and daily follow-through."
     }

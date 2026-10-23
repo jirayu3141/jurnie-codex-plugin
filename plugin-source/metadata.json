@@ -1,7 +1,7 @@
 {
   "name": "jurnie",
   "displayName": "Jurnie",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Connect your Jurnie account to review goals and manage tasks, habits, and daily follow-through.",
   "author": {
     "name": "Jurnie, Inc.",
@@ -9,9 +9,16 @@
     "url": "https://www.jurnie.co/"
   },
   "homepage": "https://www.jurnie.co/help/mcp",
+  "privacyPolicyUrl": "https://www.jurnie.co/privacy",
+  "supportUrl": "https://www.jurnie.co/help",
+  "termsOfServiceUrl": "https://www.jurnie.co/terms",
   "repository": "https://github.com/jirayu3141/jurnie-codex-plugin",
   "license": "MIT",
   "keywords": ["jurnie", "goals", "tasks", "habits", "planning", "productivity", "mcp"],
   "mcpUrl": "https://www.jurnie.co/api/mcp",
-  "cursorBridgeVersion": "0.15.2"
+  "cursorBridgeVersion": "0.15.2",
+  "claude": {
+    "name": "jurnie-goals",
+    "displayName": "Jurnie Goals & Tasks"
+  }
 }
