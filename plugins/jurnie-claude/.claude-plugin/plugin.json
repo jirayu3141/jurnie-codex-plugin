@@ -1,6 +1,6 @@
 {
-  "name": "jurnie",
-  "version": "1.0.3",
+  "name": "jurnie-goals",
+  "version": "1.0.4",
   "description": "Connect your Jurnie account to review goals and manage tasks, habits, and daily follow-through.",
   "author": {
     "name": "Jurnie, Inc.",
@@ -18,5 +18,10 @@
     "planning",
     "productivity",
     "mcp"
-  ]
+  ],
+  "displayName": "Jurnie Goals & Tasks",
+  "privacyPolicyUrl": "https://www.jurnie.co/privacy",
+  "supportUrl": "https://www.jurnie.co/help",
+  "termsOfServiceUrl": "https://www.jurnie.co/terms",
+  "documentationUrl": "https://www.jurnie.co/help/mcp#claude"
 }

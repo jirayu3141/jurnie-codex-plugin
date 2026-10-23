@@ -29,10 +29,12 @@ For Claude Code, this repository also provides a marketplace manifest:
 
 ```text
 /plugin marketplace add jirayu3141/jurnie-codex-plugin
-/plugin install jurnie@jurnie-plugins
+/plugin install jurnie-goals@jurnie-plugins
 ```
 
 These direct setup routes work independently of directory review.
+
+Claude lists the package as **Jurnie Goals & Tasks** (`jurnie-goals`) to distinguish this jurnie.co service from the separate jurnie.io meeting-notes connector. This is a packaging identity difference; the skill, server, and release version remain shared.
 
 ## Install in Codex
 
